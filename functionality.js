@@ -51,12 +51,12 @@ const completeTodo = (e) => {
     }
 }
 
-const getTodos = () => {
-    fetch('https://jsonplaceholder.typicode.com/todos?_page=1')
-    .then(response => response.json())
-    .then(array => {
-        localStorage.setItem('todos', JSON.stringify(array))
-    })
-}
+// const getTodos = () => {
+//     fetch('https://jsonplaceholder.typicode.com/todos?_page=1')
+//     .then(response => response.json())
+//     .then(array => {
+//         localStorage.setItem('todos', JSON.stringify(array))
+//     })
+// }
 
-getTodos()
+// getTodos()
